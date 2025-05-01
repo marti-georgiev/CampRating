@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\images\\campplaces\\5a41422e-e958-4a98-b4a4-3dd1c16f35bf_570339529.jpg",
+      "PackagePath": "staticwebassets\\images\\campplaces\\5a41422e-e958-4a98-b4a4-3dd1c16f35bf_570339529.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\images\\campplaces\\ef80cb2c-890b-4c92-9f83-01c253f612d9_Vacha_Dam_Iz3.jpg",
+      "PackagePath": "staticwebassets\\images\\campplaces\\ef80cb2c-890b-4c92-9f83-01c253f612d9_Vacha_Dam_Iz3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CampRating.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CampRating.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.CampRating.props",
+      "PackagePath": "build\\CampRating.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.CampRating.props",
+      "PackagePath": "buildMultiTargeting\\CampRating.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.CampRating.props",
+      "PackagePath": "buildTransitive\\CampRating.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

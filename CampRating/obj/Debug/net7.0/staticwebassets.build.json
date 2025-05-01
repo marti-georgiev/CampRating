@@ -1,0 +1,537 @@
+{
+  "Version": 1,
+  "Hash": "aL+vsXFN7u6JFq+HhyYgVJES4gBp5PyI/GdxJfaT2mE=",
+  "Source": "CampRating",
+  "BasePath": "_content/CampRating",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CampRating\\wwwroot",
+      "Source": "CampRating",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\",
+      "BasePath": "_content/CampRating",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\css\\site.css",
+      "SourceId": "CampRating",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\",
+      "BasePath": "_content/CampRating",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rv4irgil4z",
+      "Integrity": "yXtayGCRtuHyVGQJcoyh1sfcPOZCdL7CHOY8PvFp6Jw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\css\\styles.css",
+      "SourceId": "CampRating",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\",
+      "BasePath": "_content/CampRating",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cv913yhq1r",
+      "Integrity": "OCPn7QY9fMU6UPK4itkEmi7FVm9WW4mmJ3LX7Ve/fp0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\images\\campplaces\\5a41422e-e958-4a98-b4a4-3dd1c16f35bf_570339529.jpg",
+      "SourceId": "CampRating",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\",
+      "BasePath": "_content/CampRating",
+      "RelativePath": "images/campplaces/5a41422e-e958-4a98-b4a4-3dd1c16f35bf_570339529#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bwvt63sb0o",
+      "Integrity": "u3gBFSqdAeJgrpFNvJ5YooM6t7lkRrM6MhYL4meUGIY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\campplaces\\5a41422e-e958-4a98-b4a4-3dd1c16f35bf_570339529.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\images\\campplaces\\ef80cb2c-890b-4c92-9f83-01c253f612d9_Vacha_Dam_Iz3.jpg",
+      "SourceId": "CampRating",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\",
+      "BasePath": "_content/CampRating",
+      "RelativePath": "images/campplaces/ef80cb2c-890b-4c92-9f83-01c253f612d9_Vacha_Dam_Iz3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gp36gi4609",
+      "Integrity": "vE/8N/WGiAzMKylI/vOYnpXF4L07vTdBxyfIJyokjy0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\campplaces\\ef80cb2c-890b-4c92-9f83-01c253f612d9_Vacha_Dam_Iz3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\js\\site.js",
+      "SourceId": "CampRating",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\",
+      "BasePath": "_content/CampRating",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l2ulli0mbr",
+      "Integrity": "gzdGO6bs1Nq0EBHUEMPy8+lGcTXpesg8E7z4GqVABts=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4082"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yXtayGCRtuHyVGQJcoyh1sfcPOZCdL7CHOY8PvFp6Jw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 10:33:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yXtayGCRtuHyVGQJcoyh1sfcPOZCdL7CHOY8PvFp6Jw="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.rv4irgil4z.css",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4082"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yXtayGCRtuHyVGQJcoyh1sfcPOZCdL7CHOY8PvFp6Jw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 10:33:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rv4irgil4z"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yXtayGCRtuHyVGQJcoyh1sfcPOZCdL7CHOY8PvFp6Jw="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "719"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OCPn7QY9fMU6UPK4itkEmi7FVm9WW4mmJ3LX7Ve/fp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 10:33:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OCPn7QY9fMU6UPK4itkEmi7FVm9WW4mmJ3LX7Ve/fp0="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.cv913yhq1r.css",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "719"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OCPn7QY9fMU6UPK4itkEmi7FVm9WW4mmJ3LX7Ve/fp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 10:33:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cv913yhq1r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OCPn7QY9fMU6UPK4itkEmi7FVm9WW4mmJ3LX7Ve/fp0="
+        }
+      ]
+    },
+    {
+      "Route": "images/campplaces/5a41422e-e958-4a98-b4a4-3dd1c16f35bf_570339529.bwvt63sb0o.jpg",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\images\\campplaces\\5a41422e-e958-4a98-b4a4-3dd1c16f35bf_570339529.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u3gBFSqdAeJgrpFNvJ5YooM6t7lkRrM6MhYL4meUGIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 10:30:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bwvt63sb0o"
+        },
+        {
+          "Name": "label",
+          "Value": "images/campplaces/5a41422e-e958-4a98-b4a4-3dd1c16f35bf_570339529.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u3gBFSqdAeJgrpFNvJ5YooM6t7lkRrM6MhYL4meUGIY="
+        }
+      ]
+    },
+    {
+      "Route": "images/campplaces/5a41422e-e958-4a98-b4a4-3dd1c16f35bf_570339529.jpg",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\images\\campplaces\\5a41422e-e958-4a98-b4a4-3dd1c16f35bf_570339529.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u3gBFSqdAeJgrpFNvJ5YooM6t7lkRrM6MhYL4meUGIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 10:30:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u3gBFSqdAeJgrpFNvJ5YooM6t7lkRrM6MhYL4meUGIY="
+        }
+      ]
+    },
+    {
+      "Route": "images/campplaces/ef80cb2c-890b-4c92-9f83-01c253f612d9_Vacha_Dam_Iz3.gp36gi4609.jpg",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\images\\campplaces\\ef80cb2c-890b-4c92-9f83-01c253f612d9_Vacha_Dam_Iz3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "661321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vE/8N/WGiAzMKylI/vOYnpXF4L07vTdBxyfIJyokjy0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 09:41:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gp36gi4609"
+        },
+        {
+          "Name": "label",
+          "Value": "images/campplaces/ef80cb2c-890b-4c92-9f83-01c253f612d9_Vacha_Dam_Iz3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vE/8N/WGiAzMKylI/vOYnpXF4L07vTdBxyfIJyokjy0="
+        }
+      ]
+    },
+    {
+      "Route": "images/campplaces/ef80cb2c-890b-4c92-9f83-01c253f612d9_Vacha_Dam_Iz3.jpg",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\images\\campplaces\\ef80cb2c-890b-4c92-9f83-01c253f612d9_Vacha_Dam_Iz3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "661321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vE/8N/WGiAzMKylI/vOYnpXF4L07vTdBxyfIJyokjy0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 09:41:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vE/8N/WGiAzMKylI/vOYnpXF4L07vTdBxyfIJyokjy0="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gzdGO6bs1Nq0EBHUEMPy8+lGcTXpesg8E7z4GqVABts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 05:18:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gzdGO6bs1Nq0EBHUEMPy8+lGcTXpesg8E7z4GqVABts="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.l2ulli0mbr.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\CampRating\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gzdGO6bs1Nq0EBHUEMPy8+lGcTXpesg8E7z4GqVABts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 05:18:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l2ulli0mbr"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gzdGO6bs1Nq0EBHUEMPy8+lGcTXpesg8E7z4GqVABts="
+        }
+      ]
+    }
+  ]
+}

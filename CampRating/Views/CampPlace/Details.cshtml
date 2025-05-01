@@ -1,0 +1,249 @@
+@model CampRating.Models.CampPlaceDetailsViewModel
+
+@{
+    ViewData["Title"] = "Camp Place Details";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h1 class="card-title">@Model.CampPlace.Name</h1>
+                <div class="btn-group">
+                    <a asp-action="Index" class="btn btn-outline-secondary">
+                        <i class="fas fa-arrow-left"></i> Back to List
+                    </a>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@Model.CampPlace.Id" class="btn btn-outline-primary">
+                            <i class="fas fa-edit"></i> Edit
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@Model.CampPlace.Id" class="btn btn-outline-danger">
+                            <i class="fas fa-trash"></i> Delete
+                        </a>
+                    }
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8">
+                    @if (!string.IsNullOrEmpty(Model.CampPlace.Photo))
+                    {
+                        <img src="@Model.CampPlace.Photo" class="img-fluid rounded mb-4" alt="@Model.CampPlace.Name" />
+                    }
+                    else
+                    {
+                        <div class="bg-light rounded mb-4 d-flex align-items-center justify-content-center" style="height: 300px;">
+                            <i class="fas fa-camera fa-3x text-muted"></i>
+                        </div>
+                    }
+
+                    <div class="mb-4">
+                        <h4>Description</h4>
+                        <p class="lead">@Model.CampPlace.Description</p>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h4>Location</h4>
+                            <p>
+                                <i class="fas fa-map-marker-alt text-danger"></i>
+                                Latitude: @Model.CampPlace.Latitude<br />
+                                Longitude: @Model.CampPlace.Longitude
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Statistics</h4>
+                            <p>
+                                <i class="fas fa-star text-warning"></i>
+                                Average Rating: @(Model.CampPlace.Reviews?.Any() == true ? 
+                                    Model.CampPlace.Reviews.Average(r => r.Rating).ToString("F1") : "No ratings yet")<br />
+                                <i class="fas fa-comments text-primary"></i>
+                                Total Reviews: @(Model.CampPlace.Reviews?.Count() ?? 0)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white">
+                            <h4 class="mb-0">Leave a Review</h4>
+                        </div>
+                        <div class="card-body">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <form asp-controller="Review" asp-action="Create" method="post">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="CampPlaceId" value="@Model.CampPlace.Id" />
+                                    <div class="mb-3">
+                                        <label class="form-label">Rating</label>
+                                        <div class="rating">
+                                            @for (int i = 5; i >= 1; i--)
+                                            {
+                                                <input type="radio" name="Rating" value="@i" id="rating-@i" required />
+                                                <label for="rating-@i" title="@i stars">
+                                                    <i class="fas fa-star"></i>
+                                                </label>
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Comment</label>
+                                        <textarea name="Comment" class="form-control" rows="3" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        <i class="fas fa-paper-plane"></i> Submit Review
+                                    </button>
+                                </form>
+                            }
+                            else
+                            {
+                                <div class="text-center">
+                                    <p>Please login to leave a review</p>
+                                    <a asp-controller="Account" asp-action="Login" class="btn btn-primary">
+                                        <i class="fas fa-sign-in-alt"></i> Login
+                                    </a>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <h3>Reviews</h3>
+                @if (Model.CampPlace.Reviews?.Any() == true)
+                {
+                    foreach (var review in Model.CampPlace.Reviews.OrderByDescending(r => r.CreatedAt))
+                    {
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <div>
+                                        <h5 class="card-title mb-0">@review.User.UserName</h5>
+                                        <small class="text-muted">@review.CreatedAt.ToString("MMMM dd, yyyy")</small>
+                                    </div>
+                                    <div class="rating-display">
+                                        @for (int i = 1; i <= 5; i++)
+                                        {
+                                            <i class="fas fa-star @(i <= review.Rating ? "text-warning" : "text-muted")"></i>
+                                        }
+                                    </div>
+                                </div>
+                                <p class="card-text">@review.Comment</p>
+                                @if (User.IsInRole("Admin") || User.Identity.Name == review.User.UserName)
+                                {
+                                    <div class="btn-group btn-group-sm">
+                                        <a asp-controller="Review" asp-action="Edit" asp-route-id="@review.Id" 
+                                           class="btn btn-outline-secondary">
+                                            <i class="fas fa-edit"></i> Edit
+                                        </a>
+                                        <a asp-controller="Review" asp-action="Delete" asp-route-id="@review.Id" 
+                                           class="btn btn-outline-danger">
+                                            <i class="fas fa-trash"></i> Delete
+                                        </a>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle"></i> No reviews yet. Be the first to review this camp place!
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        $(document).ready(function() {
+            // Handle form submission
+            $('form').on('submit', function(e) {
+                e.preventDefault();
+                
+                // Show loading state
+                var submitButton = $(this).find('button[type="submit"]');
+                var originalText = submitButton.html();
+                submitButton.prop('disabled', true).html('<i class="fas fa-spinner fa-spin"></i> Submitting...');
+                
+                // Get the form data
+                var formData = $(this).serialize();
+                
+                // Submit the form via AJAX
+                $.ajax({
+                    url: $(this).attr('action'),
+                    type: 'POST',
+                    data: formData,
+                    headers: {
+                        'X-Requested-With': 'XMLHttpRequest'
+                    },
+                    success: function(response) {
+                        if (response.success) {
+                            if (response.redirect) {
+                                window.location.href = response.redirect;
+                            }
+                        } else {
+                            // Show validation errors
+                            if (response.errors) {
+                                alert('Please fix the following errors:\n' + response.errors.join('\n'));
+                            } else {
+                                alert('An error occurred while submitting the review. Please try again.');
+                            }
+                        }
+                    },
+                    error: function(xhr) {
+                        console.error('Error submitting review:', xhr);
+                        alert('An error occurred while submitting the review. Please try again.');
+                    },
+                    complete: function() {
+                        // Reset button state
+                        submitButton.prop('disabled', false).html(originalText);
+                    }
+                });
+            });
+
+            // Add click handler for star ratings
+            $('.rating input').on('click', function() {
+                var rating = $(this).val();
+                $('.rating label').each(function(index) {
+                    if (index < rating) {
+                        $(this).addClass('text-warning');
+                    } else {
+                        $(this).removeClass('text-warning');
+                    }
+                });
+            });
+        });
+    </script>
+    <style>
+        .rating {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+        }
+        .rating input {
+            display: none;
+        }
+        .rating label {
+            cursor: pointer;
+            font-size: 1.5rem;
+            color: #ddd;
+            padding: 0 5px;
+        }
+        .rating label:hover,
+        .rating label:hover ~ label {
+            color: #ffc107;
+        }
+        .rating input:checked ~ label {
+            color: #ffc107;
+        }
+    </style>
+} 

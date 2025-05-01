@@ -1,0 +1,215 @@
+:root {
+    --primary-blue: #1a73e8;
+    --light-blue: #e8f0fe;
+    --dark-blue: #0d47a1;
+    --white: #ffffff;
+    --light-gray: #f8f9fa;
+    --medium-gray: #e9ecef;
+    --dark-gray: #343a40;
+}
+
+body {
+    background-color: var(--light-gray);
+    margin-bottom: 60px;
+}
+
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.navbar {
+    background-color: var(--white) !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: var(--primary-blue) !important;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: var(--dark-gray) !important;
+}
+
+.nav-link:hover {
+    color: var(--primary-blue) !important;
+}
+
+.jumbotron {
+    background: linear-gradient(135deg, var(--white) 0%, var(--light-blue) 100%);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    background-color: var(--white);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    color: var(--dark-gray);
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: var(--dark-blue);
+    border-color: var(--dark-blue);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-success {
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+    padding: 10px 20px;
+}
+
+.btn-success:hover {
+    background-color: var(--dark-blue);
+    border-color: var(--dark-blue);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-primary {
+    color: var(--primary-blue);
+    border-color: var(--primary-blue);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+.search-input {
+    border-radius: 25px;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    border: 2px solid var(--medium-gray);
+    transition: all 0.3s;
+}
+
+.search-input:focus {
+    border-color: var(--primary-blue);
+    box-shadow: 0 0 0 0.2rem rgba(26, 115, 232, 0.25);
+}
+
+.search-button {
+    border-radius: 0 25px 25px 0;
+    padding: 15px 30px;
+}
+
+.admin-stats .card {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+.admin-stats .card a {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+.alert {
+    border-radius: 15px;
+    padding: 2rem;
+    background-color: var(--light-blue);
+    border: 1px solid var(--primary-blue);
+    color: var(--dark-gray);
+}
+
+.card-footer {
+    background-color: var(--light-gray);
+    border-top: 1px solid var(--medium-gray);
+}
+
+.rating {
+    color: var(--primary-blue);
+    font-size: 1.1rem;
+}
+
+.rating i {
+    margin-right: 5px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    background-color: var(--white);
+    border-top: 1px solid var(--medium-gray);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 2rem !important;
+    }
+
+    .admin-stats .card {
+        margin-bottom: 1rem;
+    }
+
+    .search-input,
+    .search-button {
+        border-radius: 25px;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+.text-warning {
+    color: #ffc107 !important;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+} 

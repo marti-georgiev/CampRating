@@ -1,0 +1,64 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/CampRating/css/site.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yXtayGCRtuHyVGQJcoyh1sfcPOZCdL7CHOY8PvFp6Jw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4082"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yXtayGCRtuHyVGQJcoyh1sfcPOZCdL7CHOY8PvFp6Jw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Apr 2025 10:33:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CampRating/css/site.rv4irgil4z.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rv4irgil4z"},{"Name":"integrity","Value":"sha256-yXtayGCRtuHyVGQJcoyh1sfcPOZCdL7CHOY8PvFp6Jw="},{"Name":"label","Value":"_content/CampRating/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4082"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yXtayGCRtuHyVGQJcoyh1sfcPOZCdL7CHOY8PvFp6Jw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Apr 2025 10:33:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CampRating/css/styles.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OCPn7QY9fMU6UPK4itkEmi7FVm9WW4mmJ3LX7Ve/fp0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"719"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022OCPn7QY9fMU6UPK4itkEmi7FVm9WW4mmJ3LX7Ve/fp0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Apr 2025 10:33:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CampRating/css/styles.cv913yhq1r.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cv913yhq1r"},{"Name":"integrity","Value":"sha256-OCPn7QY9fMU6UPK4itkEmi7FVm9WW4mmJ3LX7Ve/fp0="},{"Name":"label","Value":"_content/CampRating/css/styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"719"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022OCPn7QY9fMU6UPK4itkEmi7FVm9WW4mmJ3LX7Ve/fp0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Apr 2025 10:33:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CampRating/images/campplaces/5a41422e-e958-4a98-b4a4-3dd1c16f35bf_570339529.bwvt63sb0o.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\campplaces\5a41422e-e958-4a98-b4a4-3dd1c16f35bf_570339529.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bwvt63sb0o"},{"Name":"integrity","Value":"sha256-u3gBFSqdAeJgrpFNvJ5YooM6t7lkRrM6MhYL4meUGIY="},{"Name":"label","Value":"_content/CampRating/images/campplaces/5a41422e-e958-4a98-b4a4-3dd1c16f35bf_570339529.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"90939"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022u3gBFSqdAeJgrpFNvJ5YooM6t7lkRrM6MhYL4meUGIY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Apr 2025 10:30:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CampRating/images/campplaces/5a41422e-e958-4a98-b4a4-3dd1c16f35bf_570339529.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\campplaces\5a41422e-e958-4a98-b4a4-3dd1c16f35bf_570339529.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-u3gBFSqdAeJgrpFNvJ5YooM6t7lkRrM6MhYL4meUGIY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"90939"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022u3gBFSqdAeJgrpFNvJ5YooM6t7lkRrM6MhYL4meUGIY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Apr 2025 10:30:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CampRating/images/campplaces/ef80cb2c-890b-4c92-9f83-01c253f612d9_Vacha_Dam_Iz3.gp36gi4609.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\campplaces\ef80cb2c-890b-4c92-9f83-01c253f612d9_Vacha_Dam_Iz3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gp36gi4609"},{"Name":"integrity","Value":"sha256-vE/8N/WGiAzMKylI/vOYnpXF4L07vTdBxyfIJyokjy0="},{"Name":"label","Value":"_content/CampRating/images/campplaces/ef80cb2c-890b-4c92-9f83-01c253f612d9_Vacha_Dam_Iz3.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"661321"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vE/8N/WGiAzMKylI/vOYnpXF4L07vTdBxyfIJyokjy0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Apr 2025 09:41:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CampRating/images/campplaces/ef80cb2c-890b-4c92-9f83-01c253f612d9_Vacha_Dam_Iz3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\campplaces\ef80cb2c-890b-4c92-9f83-01c253f612d9_Vacha_Dam_Iz3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vE/8N/WGiAzMKylI/vOYnpXF4L07vTdBxyfIJyokjy0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"661321"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vE/8N/WGiAzMKylI/vOYnpXF4L07vTdBxyfIJyokjy0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Apr 2025 09:41:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CampRating/js/site.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gzdGO6bs1Nq0EBHUEMPy8\u002BlGcTXpesg8E7z4GqVABts="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1043"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022gzdGO6bs1Nq0EBHUEMPy8\u002BlGcTXpesg8E7z4GqVABts=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Apr 2025 05:18:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CampRating/js/site.l2ulli0mbr.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l2ulli0mbr"},{"Name":"integrity","Value":"sha256-gzdGO6bs1Nq0EBHUEMPy8\u002BlGcTXpesg8E7z4GqVABts="},{"Name":"label","Value":"_content/CampRating/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1043"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022gzdGO6bs1Nq0EBHUEMPy8\u002BlGcTXpesg8E7z4GqVABts=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Apr 2025 05:18:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
